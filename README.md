@@ -15,3 +15,8 @@ For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 # to-do-app
+
+## Testing
+- Note:
+  + Integration_test: flutter drive --driver=test/integration_driver.dart --target=test/integration_test.dart
+  + To remove unexpect error : Run each test separately, comment another tests for best accuracy
