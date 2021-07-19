@@ -176,8 +176,8 @@ import 'package:flutter_redux/flutter_redux.dart';
 import 'package:redux/redux.dart';
 
 import '../redux/app_state.dart';
-import '../model/todo_viewmodel.dart';
-import '../shared/todo_list_view.dart';
+import '../view_model/todo_viewmodel.dart';
+import '../widgets/todo_list_view.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);

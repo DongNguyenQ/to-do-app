@@ -8,8 +8,8 @@ import 'package:to_do_app/widgets/todo_form_view.dart';
 
 import '../main.dart';
 import 'no_data_view.dart';
-import 'styles.dart';
-import '../widgets/todo_item_view.dart';
+import '../shared/styles.dart';
+import 'todo_item_view.dart';
 
 class TodoListView extends StatelessWidget {
   final String? title;

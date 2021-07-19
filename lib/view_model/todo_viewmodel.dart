@@ -2,7 +2,7 @@ import 'package:redux/redux.dart';
 import 'package:to_do_app/redux/actions.dart';
 
 import '../redux/app_state.dart';
-import 'todo_entity.dart';
+import '../model/todo_entity.dart';
 
 class TodoViewModel {
   final List<TodoEntity> todos;

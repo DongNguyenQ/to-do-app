@@ -3,8 +3,8 @@ import 'package:flutter_redux/flutter_redux.dart';
 import 'package:redux/redux.dart';
 import 'package:to_do_app/redux/app_state.dart';
 
-import '../model/todo_viewmodel.dart';
-import '../shared/todo_list_view.dart';
+import '../view_model/todo_viewmodel.dart';
+import '../widgets/todo_list_view.dart';
 
 class UnCompleteTodoScreen extends StatelessWidget {
   const UnCompleteTodoScreen({Key? key}) : super(key: key);

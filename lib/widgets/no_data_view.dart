@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:to_do_app/widgets/status_button.dart';
 
-import 'consts.dart';
-import 'styles.dart';
+import '../shared/consts.dart';
+import '../shared/styles.dart';
 
 class NoDataView extends StatelessWidget {
   final Function onClick;

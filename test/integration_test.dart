@@ -8,7 +8,7 @@ import 'package:to_do_app/redux/config.dart';
 import 'package:to_do_app/redux/middleware.dart';
 import 'package:to_do_app/redux/reducers.dart';
 import 'package:to_do_app/shared/consts.dart';
-import 'package:to_do_app/shared/no_data_view.dart';
+import 'package:to_do_app/widgets/no_data_view.dart';
 
 
 // Note : For best accuracy, run each test separately, comment another tests
